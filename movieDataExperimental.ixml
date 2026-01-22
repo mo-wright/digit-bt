@@ -1,0 +1,11 @@
+tab: -#9.
+quote: -#22.
+let: ["a"-"z"]; ["A"-"Z"].
+num: ["0"-"9"].
+
+year: num, num, num, num.
+country: ~[#9;#d;#a]+.
+title: quote?, ~[#22; #9;#d;#a]+, quote?.
+runtime: ~[#9;#d;#a]+.
+
+film: #a?, title, tab, year, tab, tab, country, tab, runtime, #a?.
