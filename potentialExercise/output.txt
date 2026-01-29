@@ -12,7 +12,10 @@
          <city>Anytown</city>
          <state>NY</state>
       </location>
-      <phone>555-0102</phone>
+      <phone>
+         <area>555</area>
+         <num>555-0102</num>
+      </phone>
       <email>jsd5323@email.com</email>
 </line>
    <line>
@@ -28,7 +31,10 @@
          <city>Sometown</city>
          <state>CA</state>
       </location>
-      <phone>555-0199</phone>
+      <phone>
+         <area>814</area>
+         <num>555-0199</num>
+      </phone>
       <email>jes1234@email.com</email>
 </line>
    <line>
@@ -44,7 +50,10 @@
          <city>Othercity</city>
          <state>TX</state>
       </location>
-      <phone>555-0155</phone>
+      <phone>
+         <area>723</area>
+         <num>555-0155</num>
+      </phone>
       <email>pwj4321@email.com</email>
    </line>
 </document>

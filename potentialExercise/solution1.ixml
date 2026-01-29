@@ -1,7 +1,7 @@
 document: line+ .
 line: name, div, add, div, location, div, phone, div, email, newline?.
 -newline:(-#d?, #a).
-name: first, space, last.
+name: first, space, last. 
 first: (["A"-"Z"]; ["a"-"z"])+.
 last: (["A"-"Z"]; ["a"-"z"])+.
 -space: -#20.
@@ -13,5 +13,7 @@ city: (["A"-"Z"]; ["a"-"z"])+.
 state: ["A"-"Z"], ["A"-"Z"].
 -comma: -#2C.
 -div: -#7C .
-phone: [N], [N], [N], #2D, [N],[N],[N],[N].
+phone: area, num.
+num:[N], [N], [N], #2D, [N],[N],[N],[N].
+area:-"(", [N], [N], [N], -")".
 email: ["a"-"z"], ["a"-"z"], ["a"-"z"], [N], [N], [N], [N], "@", "email.com".

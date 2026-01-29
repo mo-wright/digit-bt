@@ -1,3 +1,3 @@
-John Doe|123 Main St|Anytown, NY|555-0102|jsd5323@email.com
-Jane Smith|456 Oak Ave|Sometown, CA|555-0199|jes1234@email.com
-Pete Johnson|789 Pine Rd|Othercity, TX|555-0155|pwj4321@email.com
+John Doe|123 Main St|Anytown, NY|(555)555-0102|jsd5323@email.com
+Jane Smith|456 Oak Ave|Sometown, CA|(814)555-0199|jes1234@email.com
+Pete Johnson|789 Pine Rd|Othercity, TX|(723)555-0155|pwj4321@email.com
