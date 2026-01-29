@@ -1,0 +1,11 @@
+line: name, div, add, div, location, div, phone, div, email .
+name: ["A"-"Z"]+, space,  ["A"-"Z"]+ .
+space: #20.
+add: [N]+, space, ["A"-"Z"]+, ["A"-"Z"]+.
+location: city, comma, state.
+city: ["A"-"Z"]+.
+state: ["A"-"Z"], ["A"-"Z"].
+comma: #2C.
+div: #7C .
+phone: [N], [N], [N], #2D, [N],[N],[N],[N].
+email: ["A"-"Z"], ["A"-"Z"], ["A"-"Z"], [N], [N], [N], [N], #40, "email.com"
