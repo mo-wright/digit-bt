@@ -4,37 +4,42 @@
          <first>John</first>
          <last>Doe</last>
       </name>
-      <add>123MainSt</add>
+      <add>
+         <houseNum>123</houseNum>
+         <street>MainSt</street>
+      </add>
       <location>
          <city>Anytown</city>
          <state>NY</state>
       </location>
       <phone>555-0102</phone>
       <email>jsd5323@email.com</email>
-      <newline>
-</newline>
-   </line>
+</line>
    <line>
       <name>
          <first>Jane</first>
          <last>Smith</last>
       </name>
-      <add>456OakAve</add>
+      <add>
+         <houseNum>456</houseNum>
+         <street>OakAve</street>
+      </add>
       <location>
          <city>Sometown</city>
          <state>CA</state>
       </location>
       <phone>555-0199</phone>
       <email>jes1234@email.com</email>
-      <newline>
-</newline>
-   </line>
+</line>
    <line>
       <name>
          <first>Pete</first>
          <last>Johnson</last>
       </name>
-      <add>789PineRd</add>
+      <add>
+         <houseNum>789</houseNum>
+         <street>PineRd</street>
+      </add>
       <location>
          <city>Othercity</city>
          <state>TX</state>
