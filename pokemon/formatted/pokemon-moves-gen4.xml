@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><generation><key>Name
+
+Type
+
+Cat.
+
+Power
+
+Acc.
+
+PP
+
+Effect
+</key><move><name>Acupressure</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>30</pp><desc>Sharply raises a random stat.</desc>
+</move><move><name>Air Slash</name><type>Flying</type><cat>Special</cat><power>75</power><acc>95</acc><pp>15</pp><desc>May cause flinching.</desc>
+</move><move><name>Aqua Jet</name><type>Water</type><cat>Physical</cat><power>40</power><acc>100</acc><pp>20</pp><desc>User attacks first.</desc>
+</move><move><name>Aqua Ring</name><type>Water</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Restores a little HP each turn.</desc>
+</move><move><name>Aqua Tail</name><type>Water</type><cat>Physical</cat><power>90</power><acc>90</acc><pp>10</pp><desc>
+</desc></move><move><name>Assurance</name><type>Dark</type><cat>Physical</cat><power>60</power><acc>100</acc><pp>10</pp><desc>Power doubles if opponent already took damage in the same turn.</desc>
+</move><move><name>Attack Order</name><type>Bug</type><cat>Physical</cat><power>90</power><acc>100</acc><pp>15</pp><desc>High critical hit ratio.</desc>
+</move><move><name>Aura Sphere</name><type>Fighting</type><cat>Special</cat><power>80</power><acc>∞</acc><pp>20</pp><desc>Ignores Accuracy and Evasiveness.</desc>
+</move><move><name>Avalanche</name><type>Ice</type><cat>Physical</cat><power>60</power><acc>100</acc><pp>10</pp><desc>Power doubles if user took damage first.</desc>
+</move><move><name>Brave Bird</name><type>Flying</type><cat>Physical</cat><power>120</power><acc>100</acc><pp>15</pp><desc>User receives recoil damage.</desc>
+</move><move><name>Brine</name><type>Water</type><cat>Special</cat><power>65</power><acc>100</acc><pp>10</pp><desc>Power doubles if opponent's HP is less than 50%.</desc>
+</move><move><name>Bug Bite</name><type>Bug</type><cat>Physical</cat><power>60</power><acc>100</acc><pp>20</pp><desc>Receives the effect from the opponent's held berry.</desc>
+</move><move><name>Bug Buzz</name><type>Bug</type><cat>Special</cat><power>90</power><acc>100</acc><pp>10</pp><desc>May lower opponent's Special Defense.</desc>
+</move><move><name>Bullet Punch</name><type>Steel</type><cat>Physical</cat><power>40</power><acc>100</acc><pp>30</pp><desc>User attacks first.</desc>
+</move><move><name>Captivate</name><type>Normal</type><cat>Status</cat><power>—</power><acc>100</acc><pp>20</pp><desc>Sharply lowers opponent's Special Attack if opposite gender.</desc>
+</move><move><name>Charge Beam</name><type>Electric</type><cat>Special</cat><power>50</power><acc>90</acc><pp>10</pp><desc>May raise user's Special Attack.</desc>
+</move><move><name>Chatter</name><type>Flying</type><cat>Special</cat><power>65</power><acc>100</acc><pp>20</pp><desc>Confuses opponent.</desc>
+</move><move><name>Close Combat</name><type>Fighting</type><cat>Physical</cat><power>120</power><acc>100</acc><pp>5</pp><desc>Lowers user's Defense and Special Defense.</desc>
+</move><move><name>Copycat</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Copies opponent's last move.</desc>
+</move><move><name>Cross Poison</name><type>Poison</type><cat>Physical</cat><power>70</power><acc>100</acc><pp>20</pp><desc>High critical hit ratio. May poison opponent.</desc>
+</move><move><name>Crush Grip</name><type>Normal</type><cat>Physical</cat><power>—</power><acc>100</acc><pp>5</pp><desc>More powerful when opponent has higher HP.</desc>
+</move><move><name>Dark Pulse</name><type>Dark</type><cat>Special</cat><power>80</power><acc>100</acc><pp>15</pp><desc>May cause flinching.</desc>
+</move><move><name>Dark Void</name><type>Dark</type><cat>Status</cat><power>—</power><acc>50</acc><pp>10</pp><desc>Puts all adjacent opponents to sleep.</desc>
+</move><move><name>Defend Order</name><type>Bug</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Raises user's Defense and Special Defense.</desc>
+</move><move><name>Defog</name><type>Flying</type><cat>Status</cat><power>—</power><acc>—</acc><pp>15</pp><desc>Lowers opponent's Evasiveness and clears fog.</desc>
+</move><move><name>Discharge</name><type>Electric</type><cat>Special</cat><power>80</power><acc>100</acc><pp>15</pp><desc>May paralyze opponent.</desc>
+</move><move><name>Double Hit</name><type>Normal</type><cat>Physical</cat><power>35</power><acc>90</acc><pp>10</pp><desc>Hits twice in one turn.</desc>
+</move><move><name>Draco Meteor</name><type>Dragon</type><cat>Special</cat><power>130</power><acc>90</acc><pp>5</pp><desc>Sharply lowers user's Special Attack.</desc>
+</move><move><name>Dragon Pulse</name><type>Dragon</type><cat>Special</cat><power>85</power><acc>100</acc><pp>10</pp><desc>
+</desc></move><move><name>Dragon Rush</name><type>Dragon</type><cat>Physical</cat><power>100</power><acc>75</acc><pp>10</pp><desc>May cause flinching.</desc>
+</move><move><name>Drain Punch</name><type>Fighting</type><cat>Physical</cat><power>75</power><acc>100</acc><pp>10</pp><desc>User recovers half the HP inflicted on opponent.</desc>
+</move><move><name>Earth Power</name><type>Ground</type><cat>Special</cat><power>90</power><acc>100</acc><pp>10</pp><desc>May lower opponent's Special Defense.</desc>
+</move><move><name>Embargo</name><type>Dark</type><cat>Status</cat><power>—</power><acc>100</acc><pp>15</pp><desc>Opponent cannot use items.</desc>
+</move><move><name>Energy Ball</name><type>Grass</type><cat>Special</cat><power>90</power><acc>100</acc><pp>10</pp><desc>May lower opponent's Special Defense.</desc>
+</move><move><name>Feint</name><type>Normal</type><cat>Physical</cat><power>30</power><acc>100</acc><pp>10</pp><desc>Only hits if opponent uses Protect or Detect in the same turn.</desc>
+</move><move><name>Fire Fang</name><type>Fire</type><cat>Physical</cat><power>65</power><acc>95</acc><pp>15</pp><desc>May cause flinching and/or burn opponent.</desc>
+</move><move><name>Flare Blitz</name><type>Fire</type><cat>Physical</cat><power>120</power><acc>100</acc><pp>15</pp><desc>User receives recoil damage. May burn opponent.</desc>
+</move><move><name>Flash Cannon</name><type>Steel</type><cat>Special</cat><power>80</power><acc>100</acc><pp>10</pp><desc>May lower opponent's Special Defense.</desc>
+</move><move><name>Fling</name><type>Dark</type><cat>Physical</cat><power>—</power><acc>100</acc><pp>10</pp><desc>Power depends on held item.</desc>
+</move><move><name>Focus Blast</name><type>Fighting</type><cat>Special</cat><power>120</power><acc>70</acc><pp>5</pp><desc>May lower opponent's Special Defense.</desc>
+</move><move><name>Force Palm</name><type>Fighting</type><cat>Physical</cat><power>60</power><acc>100</acc><pp>10</pp><desc>May paralyze opponent.</desc>
+</move><move><name>Gastro Acid</name><type>Poison</type><cat>Status</cat><power>—</power><acc>100</acc><pp>10</pp><desc>Cancels out the effect of the opponent's Ability.</desc>
+</move><move><name>Giga Impact</name><type>Normal</type><cat>Physical</cat><power>150</power><acc>90</acc><pp>5</pp><desc>User must recharge next turn.</desc>
+</move><move><name>Grass Knot</name><type>Grass</type><cat>Special</cat><power>—</power><acc>100</acc><pp>20</pp><desc>The heavier the opponent, the stronger the attack.</desc>
+</move><move><name>Gravity</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>5</pp><desc>Prevents moves like Fly and Bounce and the Ability Levitate for 5 turns.</desc>
+</move><move><name>Guard Swap</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>User and opponent swap Defense and Special Defense.</desc>
+</move><move><name>Gunk Shot</name><type>Poison</type><cat>Physical</cat><power>120</power><acc>80</acc><pp>5</pp><desc>May poison opponent.</desc>
+</move><move><name>Gyro Ball</name><type>Steel</type><cat>Physical</cat><power>—</power><acc>100</acc><pp>5</pp><desc>The slower the user, the stronger the attack.</desc>
+</move><move><name>Hammer Arm</name><type>Fighting</type><cat>Physical</cat><power>100</power><acc>90</acc><pp>10</pp><desc>Lowers user's Speed.</desc>
+</move><move><name>Head Smash</name><type>Rock</type><cat>Physical</cat><power>150</power><acc>80</acc><pp>5</pp><desc>User receives recoil damage.</desc>
+</move><move><name>Heal Block</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>100</acc><pp>15</pp><desc>Prevents the opponent from restoring HP for 5 turns.</desc>
+</move><move><name>Heal Order</name><type>Bug</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>User recovers half its max HP.</desc>
+</move><move><name>Healing Wish</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>The user faints and the next Pokémon released is fully healed.</desc>
+</move><move><name>Heart Swap</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Stat changes are swapped with the opponent.</desc>
+</move><move><name>Ice Fang</name><type>Ice</type><cat>Physical</cat><power>65</power><acc>95</acc><pp>15</pp><desc>May cause flinching and/or freeze opponent.</desc>
+</move><move><name>Ice Shard</name><type>Ice</type><cat>Physical</cat><power>40</power><acc>100</acc><pp>30</pp><desc>User attacks first.</desc>
+</move><move><name>Iron Head</name><type>Steel</type><cat>Physical</cat><power>80</power><acc>100</acc><pp>15</pp><desc>May cause flinching.</desc>
+</move><move><name>Judgment</name><type>Normal</type><cat>Special</cat><power>100</power><acc>100</acc><pp>10</pp><desc>Type depends on the Arceus Plate being held.</desc>
+</move><move><name>Last Resort</name><type>Normal</type><cat>Physical</cat><power>140</power><acc>100</acc><pp>5</pp><desc>Can only be used after all other moves are used.</desc>
+</move><move><name>Lava Plume</name><type>Fire</type><cat>Special</cat><power>80</power><acc>100</acc><pp>15</pp><desc>May burn opponent.</desc>
+</move><move><name>Leaf Storm</name><type>Grass</type><cat>Special</cat><power>130</power><acc>90</acc><pp>5</pp><desc>Sharply lowers user's Special Attack.</desc>
+</move><move><name>Lucky Chant</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>30</pp><desc>Opponent cannot land critical hits for 5 turns.</desc>
+</move><move><name>Lunar Dance</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>The user faints but the next Pokémon released is fully healed.</desc>
+</move><move><name>Magma Storm</name><type>Fire</type><cat>Special</cat><power>100</power><acc>75</acc><pp>5</pp><desc>Traps opponent, damaging them for 4-5 turns.</desc>
+</move><move><name>Magnet Bomb</name><type>Steel</type><cat>Physical</cat><power>60</power><acc>∞</acc><pp>20</pp><desc>Ignores Accuracy and Evasiveness.</desc>
+</move><move><name>Magnet Rise</name><type>Electric</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>User becomes immune to Ground-type moves for 5 turns.</desc>
+</move><move><name>Me First</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>User copies the opponent's attack with 1.5× power.</desc>
+</move><move><name>Metal Burst</name><type>Steel</type><cat>Physical</cat><power>—</power><acc>100</acc><pp>10</pp><desc>Deals damage equal to 1.5x opponent's attack.</desc>
+</move><move><name>Miracle Eye</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>40</pp><desc>Resets opponent's Evasiveness, removes Dark's Psychic immunity.</desc>
+</move><move><name>Mirror Shot</name><type>Steel</type><cat>Special</cat><power>65</power><acc>85</acc><pp>10</pp><desc>May lower opponent's Accuracy.</desc>
+</move><move><name>Mud Bomb</name><type>Ground</type><cat>Special</cat><power>65</power><acc>85</acc><pp>10</pp><desc>May lower opponent's Accuracy.</desc>
+</move><move><name>Nasty Plot</name><type>Dark</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Sharply raises user's Special Attack.</desc>
+</move><move><name>Natural Gift</name><type>Normal</type><cat>Physical</cat><power>—</power><acc>100</acc><pp>15</pp><desc>Power and type depend on the user's held berry.</desc>
+</move><move><name>Night Slash</name><type>Dark</type><cat>Physical</cat><power>70</power><acc>100</acc><pp>15</pp><desc>High critical hit ratio.</desc>
+</move><move><name>Ominous Wind</name><type>Ghost</type><cat>Special</cat><power>60</power><acc>100</acc><pp>5</pp><desc>May raise all user's stats at once.</desc>
+</move><move><name>Payback</name><type>Dark</type><cat>Physical</cat><power>50</power><acc>100</acc><pp>10</pp><desc>Power doubles if the user was attacked first.</desc>
+</move><move><name>Pluck</name><type>Flying</type><cat>Physical</cat><power>60</power><acc>100</acc><pp>20</pp><desc>If the opponent is holding a berry, its effect is stolen by user.</desc>
+</move><move><name>Poison Jab</name><type>Poison</type><cat>Physical</cat><power>80</power><acc>100</acc><pp>20</pp><desc>May poison the opponent.</desc>
+</move><move><name>Power Gem</name><type>Rock</type><cat>Special</cat><power>80</power><acc>100</acc><pp>20</pp><desc>
+</desc></move><move><name>Power Swap</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>User and opponent swap Attack and Special Attack.</desc>
+</move><move><name>Power Trick</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>User's own Attack and Defense switch.</desc>
+</move><move><name>Power Whip</name><type>Grass</type><cat>Physical</cat><power>120</power><acc>85</acc><pp>10</pp><desc>
+</desc></move><move><name>Psycho Cut</name><type>Psychic</type><cat>Physical</cat><power>70</power><acc>100</acc><pp>20</pp><desc>High critical hit ratio.</desc>
+</move><move><name>Psycho Shift</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>100</acc><pp>10</pp><desc>Transfers user's status condition to the opponent.</desc>
+</move><move><name>Punishment</name><type>Dark</type><cat>Physical</cat><power>—</power><acc>100</acc><pp>5</pp><desc>Power increases when opponent's stats have been raised.</desc>
+</move><move><name>Roar of Time</name><type>Dragon</type><cat>Special</cat><power>150</power><acc>90</acc><pp>5</pp><desc>User must recharge next turn.</desc>
+</move><move><name>Rock Climb</name><type>Normal</type><cat>Physical</cat><power>90</power><acc>85</acc><pp>20</pp><desc>May confuse opponent.</desc>
+</move><move><name>Rock Polish</name><type>Rock</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Sharply raises user's Speed.</desc>
+</move><move><name>Rock Wrecker</name><type>Rock</type><cat>Physical</cat><power>150</power><acc>90</acc><pp>5</pp><desc>User must recharge next turn.</desc>
+</move><move><name>Roost</name><type>Flying</type><cat>Status</cat><power>—</power><acc>—</acc><pp>5</pp><desc>User recovers half of its max HP and loses the Flying type temporarily.</desc>
+</move><move><name>Seed Bomb</name><type>Grass</type><cat>Physical</cat><power>80</power><acc>100</acc><pp>15</pp><desc>
+</desc></move><move><name>Seed Flare</name><type>Grass</type><cat>Special</cat><power>120</power><acc>85</acc><pp>5</pp><desc>May lower opponent's Special Defense.</desc>
+</move><move><name>Shadow Claw</name><type>Ghost</type><cat>Physical</cat><power>70</power><acc>100</acc><pp>15</pp><desc>High critical hit ratio.</desc>
+</move><move><name>Shadow Force</name><type>Ghost</type><cat>Physical</cat><power>120</power><acc>100</acc><pp>5</pp><desc>Disappears on first turn, attacks on second. Can strike through Protect/Detect.</desc>
+</move><move><name>Shadow Sneak</name><type>Ghost</type><cat>Physical</cat><power>40</power><acc>100</acc><pp>30</pp><desc>User attacks first.</desc>
+</move><move><name>Spacial Rend</name><type>Dragon</type><cat>Special</cat><power>100</power><acc>95</acc><pp>5</pp><desc>High critical hit ratio.</desc>
+</move><move><name>Stealth Rock</name><type>Rock</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Damages opponents switching into battle.</desc>
+</move><move><name>Stone Edge</name><type>Rock</type><cat>Physical</cat><power>100</power><acc>80</acc><pp>5</pp><desc>High critical hit ratio.</desc>
+</move><move><name>Sucker Punch</name><type>Dark</type><cat>Physical</cat><power>70</power><acc>100</acc><pp>5</pp><desc>User attacks first, but only works if opponent is readying an attack.</desc>
+</move><move><name>Switcheroo</name><type>Dark</type><cat>Status</cat><power>—</power><acc>100</acc><pp>10</pp><desc>Swaps held items with the opponent.</desc>
+</move><move><name>Tailwind</name><type>Flying</type><cat>Status</cat><power>—</power><acc>—</acc><pp>15</pp><desc>Doubles Speed for 4 turns.</desc>
+</move><move><name>Thunder Fang</name><type>Electric</type><cat>Physical</cat><power>65</power><acc>95</acc><pp>15</pp><desc>May cause flinching and/or paralyze opponent.</desc>
+</move><move><name>Toxic Spikes</name><type>Poison</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Poisons opponents switching into battle.</desc>
+</move><move><name>Trick Room</name><type>Psychic</type><cat>Status</cat><power>—</power><acc>—</acc><pp>5</pp><desc>Slower Pokémon move first in the turn for 5 turns.</desc>
+</move><move><name>Trump Card</name><type>Normal</type><cat>Special</cat><power>—</power><acc>∞</acc><pp>5</pp><desc>The lower the PP, the higher the power.</desc>
+</move><move><name>U-turn</name><type>Bug</type><cat>Physical</cat><power>70</power><acc>100</acc><pp>20</pp><desc>User switches out immediately after attacking.</desc>
+</move><move><name>Vacuum Wave</name><type>Fighting</type><cat>Special</cat><power>40</power><acc>100</acc><pp>30</pp><desc>User attacks first.</desc>
+</move><move><name>Wake-Up Slap</name><type>Fighting</type><cat>Physical</cat><power>70</power><acc>100</acc><pp>10</pp><desc>Power doubles if opponent is asleep, but wakes it up.</desc>
+</move><move><name>Wood Hammer</name><type>Grass</type><cat>Physical</cat><power>120</power><acc>100</acc><pp>15</pp><desc>User receives recoil damage.</desc>
+</move><move><name>Worry Seed</name><type>Grass</type><cat>Status</cat><power>—</power><acc>100</acc><pp>10</pp><desc>Changes the opponent's Ability to Insomnia.</desc>
+</move><move><name>Wring Out</name><type>Normal</type><cat>Special</cat><power>—</power><acc>100</acc><pp>5</pp><desc>The higher the opponent's HP, the higher the damage.</desc>
+</move><move><name>X-Scissor</name><type>Bug</type><cat>Physical</cat><power>80</power><acc>100</acc><pp>15</pp><desc>
+</desc></move><move><name>Zen Headbutt</name><type>Psychic</type><cat>Physical</cat><power>80</power><acc>90</acc><pp>15</pp><desc>May cause flinching.</desc></move></generation>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><generation><key>Name
+
+Type
+
+Cat.
+
+Power
+
+Acc.
+
+PP
+
+Effect
+</key><move><name>Aromatic Mist</name><type>Fairy</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Raises Special Defense of an ally.</desc>
+</move><move><name>Baby-Doll Eyes</name><type>Fairy</type><cat>Status</cat><power>—</power><acc>100</acc><pp>30</pp><desc>Always goes first. Lowers the target's attack.</desc>
+</move><move><name>Belch</name><type>Poison</type><cat>Special</cat><power>120</power><acc>90</acc><pp>10</pp><desc>User must have consumed a Berry.</desc>
+</move><move><name>Boomburst</name><type>Normal</type><cat>Special</cat><power>140</power><acc>100</acc><pp>10</pp><desc>Hits all adjacent Pokémon.</desc>
+</move><move><name>Celebrate</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>40</pp><desc>The Pokémon congratulates you on your special day. No battle effect.</desc>
+</move><move><name>Confide</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Lowers opponent's Special Attack.</desc>
+</move><move><name>Crafty Shield</name><type>Fairy</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Protects the Pokémon from status moves.</desc>
+</move><move><name>Dazzling Gleam</name><type>Fairy</type><cat>Special</cat><power>80</power><acc>100</acc><pp>10</pp><desc>Hits all adjacent opponents.</desc>
+</move><move><name>Diamond Storm</name><type>Rock</type><cat>Physical</cat><power>100</power><acc>95</acc><pp>5</pp><desc>May sharply raise user's Defense.</desc>
+</move><move><name>Disarming Voice</name><type>Fairy</type><cat>Special</cat><power>40</power><acc>∞</acc><pp>15</pp><desc>Ignores Accuracy and Evasiveness.</desc>
+</move><move><name>Dragon Ascent</name><type>Flying</type><cat>Physical</cat><power>120</power><acc>100</acc><pp>5</pp><desc>Lowers user's Defense and Special Defense.</desc>
+</move><move><name>Draining Kiss</name><type>Fairy</type><cat>Special</cat><power>50</power><acc>100</acc><pp>10</pp><desc>User recovers most the HP inflicted on opponent.</desc>
+</move><move><name>Eerie Impulse</name><type>Electric</type><cat>Status</cat><power>—</power><acc>100</acc><pp>15</pp><desc>Sharply lowers opponent's Special Attack.</desc>
+</move><move><name>Electric Terrain</name><type>Electric</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Prevents all Pokémon from falling asleep for 5 turns.</desc>
+</move><move><name>Electrify</name><type>Electric</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Changes the target's move to Electric type.</desc>
+</move><move><name>Fairy Lock</name><type>Fairy</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Prevents fleeing in the next turn.</desc>
+</move><move><name>Fairy Wind</name><type>Fairy</type><cat>Special</cat><power>40</power><acc>100</acc><pp>30</pp><desc>
+</desc></move><move><name>Fell Stinger</name><type>Bug</type><cat>Physical</cat><power>50</power><acc>100</acc><pp>25</pp><desc>Drastically raises user's Attack if target is KO'd.</desc>
+</move><move><name>Flower Shield</name><type>Fairy</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Sharply raises Defense of all Grass-type Pokémon on the field.</desc>
+</move><move><name>Flying Press</name><type>Fighting</type><cat>Physical</cat><power>100</power><acc>95</acc><pp>10</pp><desc>Deals Fighting and Flying type damage.</desc>
+</move><move><name>Forest's Curse</name><type>Grass</type><cat>Status</cat><power>—</power><acc>100</acc><pp>20</pp><desc>Adds Grass type to opponent.</desc>
+</move><move><name>Freeze-Dry</name><type>Ice</type><cat>Special</cat><power>70</power><acc>100</acc><pp>20</pp><desc>May freeze opponent. Super-effective against Water types.</desc>
+</move><move><name>Geomancy</name><type>Fairy</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Charges on first turn, sharply raises user's Sp. Attack, Sp. Defense and Speed on the second.</desc>
+</move><move><name>Grassy Terrain</name><type>Grass</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Restores a little HP of all Pokémon for 5 turns.</desc>
+</move><move><name>Happy Hour</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>30</pp><desc>Doubles prize money from trainer battles.</desc>
+</move><move><name>Hold Back</name><type>Normal</type><cat>Physical</cat><power>40</power><acc>100</acc><pp>40</pp><desc>Always leaves opponent with at least 1 HP.</desc>
+</move><move><name>Hold Hands</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>40</pp><desc>Makes the user and an ally very happy.</desc>
+</move><move><name>Hyperspace Fury</name><type>Dark</type><cat>Physical</cat><power>100</power><acc>∞</acc><pp>5</pp><desc>Lowers user's Defense. Can strike through Protect/Detect.</desc>
+</move><move><name>Hyperspace Hole</name><type>Psychic</type><cat>Special</cat><power>80</power><acc>∞</acc><pp>5</pp><desc>Can strike through Protect/Detect.</desc>
+</move><move><name>Infestation</name><type>Bug</type><cat>Special</cat><power>20</power><acc>100</acc><pp>20</pp><desc>Traps opponent, damaging them for 4-5 turns.</desc>
+</move><move><name>Ion Deluge</name><type>Electric</type><cat>Status</cat><power>—</power><acc>—</acc><pp>25</pp><desc>Changes Normal-type moves to Electric-type.</desc>
+</move><move><name>King's Shield</name><type>Steel</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Protects the user and lowers opponent's Attack on contact.</desc>
+</move><move><name>Land's Wrath</name><type>Ground</type><cat>Physical</cat><power>90</power><acc>100</acc><pp>10</pp><desc>
+</desc></move><move><name>Light of Ruin</name><type>Fairy</type><cat>Special</cat><power>140</power><acc>90</acc><pp>5</pp><desc>User receives recoil damage.</desc>
+</move><move><name>Magnetic Flux</name><type>Electric</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Raises Defense and Sp. Defense of Plus/Minus Pokémon.</desc>
+</move><move><name>Mat Block</name><type>Fighting</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Protects teammates from damaging moves.</desc>
+</move><move><name>Misty Terrain</name><type>Fairy</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Protects the field from status conditions for 5 turns.</desc>
+</move><move><name>Moonblast</name><type>Fairy</type><cat>Special</cat><power>95</power><acc>100</acc><pp>15</pp><desc>May lower opponent's Special Attack.</desc>
+</move><move><name>Mystical Fire</name><type>Fire</type><cat>Special</cat><power>75</power><acc>100</acc><pp>10</pp><desc>Lowers opponent's Special Attack.</desc>
+</move><move><name>Noble Roar</name><type>Normal</type><cat>Status</cat><power>—</power><acc>100</acc><pp>30</pp><desc>Lowers opponent's Attack and Special Attack.</desc>
+</move><move><name>Nuzzle</name><type>Electric</type><cat>Physical</cat><power>20</power><acc>100</acc><pp>20</pp><desc>Paralyzes opponent.</desc>
+</move><move><name>Oblivion Wing</name><type>Flying</type><cat>Special</cat><power>80</power><acc>100</acc><pp>10</pp><desc>User recovers most of the HP inflicted on opponent.</desc>
+</move><move><name>Origin Pulse</name><type>Water</type><cat>Special</cat><power>110</power><acc>85</acc><pp>10</pp><desc>Hits all adjacent opponents.</desc>
+</move><move><name>Parabolic Charge</name><type>Electric</type><cat>Special</cat><power>65</power><acc>100</acc><pp>20</pp><desc>User recovers half the HP inflicted on opponent.</desc>
+</move><move><name>Parting Shot</name><type>Dark</type><cat>Status</cat><power>—</power><acc>100</acc><pp>20</pp><desc>Lowers opponent's Attack and Special Attack then switches out.</desc>
+</move><move><name>Petal Blizzard</name><type>Grass</type><cat>Physical</cat><power>90</power><acc>100</acc><pp>15</pp><desc>Hits all adjacent Pokémon.</desc>
+</move><move><name>Phantom Force</name><type>Ghost</type><cat>Physical</cat><power>90</power><acc>100</acc><pp>10</pp><desc>Disappears on first turn, attacks on second. Can strike through Protect/Detect.</desc>
+</move><move><name>Play Nice</name><type>Normal</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Lowers opponent's Attack. Always hits.</desc>
+</move><move><name>Play Rough</name><type>Fairy</type><cat>Physical</cat><power>90</power><acc>90</acc><pp>10</pp><desc>May lower opponent's Attack.</desc>
+</move><move><name>Powder</name><type>Bug</type><cat>Status</cat><power>—</power><acc>100</acc><pp>20</pp><desc>Damages Pokémon using Fire type moves.</desc>
+</move><move><name>Power-Up Punch</name><type>Fighting</type><cat>Physical</cat><power>40</power><acc>100</acc><pp>20</pp><desc>Raises Attack.</desc>
+</move><move><name>Precipice Blades</name><type>Ground</type><cat>Physical</cat><power>120</power><acc>85</acc><pp>10</pp><desc>Hits all adjacent opponents.</desc>
+</move><move><name>Rototiller</name><type>Ground</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Raises Attack and Special Attack of Grass-types.</desc>
+</move><move><name>Spiky Shield</name><type>Grass</type><cat>Status</cat><power>—</power><acc>—</acc><pp>10</pp><desc>Protects the user and inflicts damage on contact.</desc>
+</move><move><name>Steam Eruption</name><type>Water</type><cat>Special</cat><power>110</power><acc>95</acc><pp>5</pp><desc>May burn opponent.</desc>
+</move><move><name>Sticky Web</name><type>Bug</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Lowers opponent's Speed when switching into battle.</desc>
+</move><move><name>Thousand Arrows</name><type>Ground</type><cat>Physical</cat><power>90</power><acc>100</acc><pp>10</pp><desc>Makes Flying-type Pokémon vulnerable to Ground moves.</desc>
+</move><move><name>Thousand Waves</name><type>Ground</type><cat>Physical</cat><power>90</power><acc>100</acc><pp>10</pp><desc>Opponent cannot flee or switch.</desc>
+</move><move><name>Topsy-Turvy</name><type>Dark</type><cat>Status</cat><power>—</power><acc>—</acc><pp>20</pp><desc>Reverses stat changes of opponent.</desc>
+</move><move><name>Trick-or-Treat</name><type>Ghost</type><cat>Status</cat><power>—</power><acc>100</acc><pp>20</pp><desc>Adds Ghost type to opponent.</desc>
+</move><move><name>Venom Drench</name><type>Poison</type><cat>Status</cat><power>—</power><acc>100</acc><pp>20</pp><desc>Lowers poisoned opponent's Special Attack and Speed.</desc>
+</move><move><name>Water Shuriken</name><type>Water</type><cat>Special</cat><power>15</power><acc>100</acc><pp>20</pp><desc>Hits 2-5 times in one turn.</desc></move></generation>

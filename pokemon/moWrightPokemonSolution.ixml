@@ -13,14 +13,14 @@ generation: key, move+.
 
 key: notnl++sepkey, nl.
 -sepkey: -nl, -tab, -nl.
-{sepkey exists purely to avoid repetition in typing that sequence.}
+{sepkey exists purely to avoid repetition in typing that sequence. I don't believe it's completely necessary.}
 
 move: name, tab, type, tab, cat, tab, power, tab, acc, tab, pp, tab, desc, nl?.
 {Moves always hold this format across the document.}
 
 
 name: -notnl.
-desc: -notnl.
+desc: (-notnl ; -nl).
 
 type: ("Bug" ; "Dark" ; "Dragon" ; "Electric" ; "Fairy" ; "Fighting" ; "Fire" ; "Flying" ; "Ghost" ; "Grass" ; "Ground" ; "Ice" ; "Normal" ; "Poison" ; "Psychic" ; "Rock" ; "Steel" ; "Water").
 {These are the only types a Pokemon can be in-game. Alternatively, using the code from 'name' would yield functionally the same result.}
@@ -28,8 +28,8 @@ type: ("Bug" ; "Dark" ; "Dragon" ; "Electric" ; "Fairy" ; "Fighting" ; "Fire" ; 
 cat: ("Special" ; "Physical" ; "Status"), -space?.
 {Once again, these account for the only types in-game. Like with 'type', the code from 'name' is also valid if you're not familiar with the set values in-game.}
 
-power: ([N]+ ; em), -space?.
-acc: ([N]+ ; em), -space?.
+power: ([N]+ ; em ; "∞"), -space?.
+acc: ([N]+ ; em; "∞"), -space?.
 {Literally: power or accuracy are either one or more numbers OR an emdash.}
 
 pp: [N]+, -space?.
