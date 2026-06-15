@@ -1,0 +1,48 @@
+moves: <moves> header, NL*, move+ </moves> .
+
+header:
+    "Name", TAB, NL,
+    "Type", TAB, NL,
+    "Cat.", TAB, NL,
+    "Power", TAB, NL,
+    "Acc.", TAB, NL,
+    "PP", TAB, NL,
+    "Effect", NL.
+
+move:
+    <move>
+        name, SEP,
+        type, SEP,
+        cat, SEP,
+        power, SEP,
+        acc, SEP,
+        pp, SEP,
+        effect
+    </move>,
+    NL+.
+
+name:   <name> field </name>.
+type:   <type> field </type>.
+cat:    <cat> field </cat>.
+
+power:  <power> number | emdash </power>.
+acc:    <acc> number | emdash </acc>.
+pp:     <pp> number | emdash </pp>.
+
+effect: <effect> effectChar+ </effect>.
+
+field: char+.
+
+char: ~[#9;#d;#a].
+effectChar: ~[#9;#d;#a].
+
+number: digit+.
+digit: ["0"-"9"].
+emdash: #2014.
+
+SEP: SP*, TAB, SP*.
+
+TAB: #9.
+SP: #20.
+
+NL: #d?, #a.

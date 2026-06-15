@@ -1,0 +1,5 @@
+root: para+.
+para: num, newline, (num+, ":"?, ","?)+, " ", "--", ">", " ", (num+, ":"?, ","?)+, newline, (["A"-"z"]+, " ")*, ((num+)*, "."?)*, newline*, (num* ; ["A"-"z"])*, (["A"-"z"]+, " "?)*, newline*.
+num: [N].
+-newline: -#d?, -#a.
+-emdash: -#2014.

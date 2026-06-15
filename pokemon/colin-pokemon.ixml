@@ -1,0 +1,27 @@
+xml: header, row++newline.
+header: Label++SpacePattern, newline.
+{ebb: Adding a newline at the end of this helped put a definite stop to the header!}
+Label: ["A"-"z"]+, "."?.
+-SpacePattern: newline, tab, newline.
+-newline: -#d?, -#a.
+-tab: -[#9].
+
+row: name, separator, type, separator, category, separator, power, separator, accuracy, separator, pp, separator, effect.
+
+{-separator: #9, #32?.}
+-separator: -#9.
+{ebb: I simplified your separator. I wasn't sure what #32 was, and I think it's not actually in the document? Anyway, when 
+I keep it, the grammar produces 32,000+ possible parses: it's pretty seriously ambiguous. When I use JUST the tab character as a separator,
+this works fine with your grammar. }
+
+{-newline: -#d?, -#a.}
+{ebb: You had already defined this rule for a newline: once I commented the second one out, things worked fine!}
+
+{ebb: I inserted semicolons as "or" statements in between the Unicode hexes for the rules below.}
+name: ~[#9;#a;#d]+.
+type: ~[#9;#a;#d]+.
+category: ~[#9;#a;#d]+.
+power: ~[#9;#a;#d]+.
+accuracy: ~[#9;#a;#d]+.
+pp: ~[#9;#a;#d]+.
+effect: ~[#a;#d]+.

@@ -1,0 +1,26 @@
+transcript = entry, (-nl, -nl, entry)*, -nl?.
+
+entry = entry-number, -nl,
+        time-range, -nl,
+        text-line, (-nl, text-line)+.
+
+entry-number = number.
+
+time-range =
+    timestamp, -arrow, timestamp.
+
+timestamp =
+    digits, -colon, digits, -colon, digits, -comma, digits.
+
+text-line = ~[#a;#d]+.
+
+number = digits.
+-digits = -digit+.
+-digit = ["0"-"9"].
+
+-arrow = -space*, "-", "-", ">", -space*.
+-colon = ":".
+-comma = ",".
+
+-space = #20.
+-nl = #d?, #a.

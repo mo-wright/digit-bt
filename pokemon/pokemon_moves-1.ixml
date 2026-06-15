@@ -1,0 +1,27 @@
+moves: header, newline, move+.
+
+header: name, space, type, space, category, space, power, space, accuracy, space, pp, space, effect.
+
+move: name, space, type, space, category, space, power, space, accuracy, space, pp, space, effect, newline?.
+
+name: field.
+type: word.
+category: word.
+power: number; "—".
+accuracy: number; "—".
+pp: number.
+effect: sentence+.
+
+field: character+.
+word: letter+.
+number: digit+.
+
+sentence: character; digit; "'"; ","; ".".
+
+character: letter; " "; "-".
+
+space: (#9; " ")+.
+newline: #a.
+
+letter: "A"…"Z"; "a"…"z".
+digit: "0"…"9".

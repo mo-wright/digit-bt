@@ -1,0 +1,19 @@
+transcript: block+.
+
+block: number, newline,
+       start-time, space, "-->", space, end-time, newline,
+       text+.
+
+number: digit+.
+
+start-time: time.
+end-time: time.
+
+time: digit, digit, ":", digit, digit, ":", digit, digit, ",", digit, digit, digit.
+
+text: ~newline+, newline.
+
+digit: "0" , "1" , "2" , "3" , "4" , "5" , "6" ,"7" ,"8","9".
+
+space: " ".
+newline: #a.

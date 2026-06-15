@@ -1,0 +1,36 @@
+moves: header, NL*, move+.
+
+header:
+  "Name",   NL, tabline, NL,
+  "Type",   NL, tabline, NL,
+  "Cat.",   NL, tabline, NL,
+  "Power",  NL, tabline, NL,
+  "Acc.",   NL, tabline, NL,
+  "PP",     NL, tabline, NL,
+  "Effect", NL.
+
+tabline: SP*, TAB, SP*.
+
+move: name, sep, type, sep, cat, sep, power, sep, acc, sep, pp, sep, effect, pad, NL?.
+
+name: field.
+type: field.
+cat:  field.
+power: number; emdash.
+acc:   number; emdash.
+pp:    number; emdash.
+effect: nonSep.
+field: nonSep.
+nonSep: ~[#9; #A; #D]+.
+pad: TAB*.
+
+
+number: digit.
+digit: ["0"-"9"]+.
+emdash: #2014.
+
+sep: SP*, TAB, SP*.
+
+SP: #20.
+TAB: -#9.
+NL:  -#d, -#a; -#a.

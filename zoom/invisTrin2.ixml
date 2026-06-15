@@ -1,0 +1,25 @@
+transcript: NL*, cue+, NL*.
+
+cue:
+  @n=digits, NL+,
+  @start=time, SP*, arrow, SP*, @end=time, NL+,
+  textlines, NL*.
+
+arrow: "-->".
+
+time:
+  digit, digit, ":", digit, digit, ":", digit, digit, ",", digit, digit, digit.
+
+textlines: line, (NL, line)*.
+
+# A line of text = anything except newline characters
+line: nonNL+.
+nonNL: ~[#A; #D].
+
+digits: digit+.
+digit: ["0"-"9"].
+
+SP: " "+.
+
+# newline (handles LF, CRLF, or CR)
+NL: (#A, #D?); #D.

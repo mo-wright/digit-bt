@@ -1,0 +1,28 @@
+transcript: section+.
+
+section:
+    num, NL,
+    timestamp, NL,
+    transcriptText, NL?.
+
+@num: number+.
+
+timestamp:
+    start, timeRangeSeparator, end.
+
+start: hour, ":", minute, ":", second.
+end: hour, ":", minute, ":", second.
+
+@hour: number+.
+@minute: number+.
+@second: number+.
+
+transcriptText:
+    NotNL+.
+
+number: ["0"-"9"].
+
+-NL: #d? | #a.
+-NotNL: ~[#d;#a].
+
+timeRangeSeparator: " --> ".

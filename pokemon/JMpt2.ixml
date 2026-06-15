@@ -1,0 +1,15 @@
+xml:heading, move+.
+heading: label++spacePattern.
+{label: ["A"-"Z"],["A"-"z"]+, -"."?.}
+label: ~[#d;#a;#9]+, -"."?.
+-spacePattern: newline, tab, newline.
+-newline: -#d?, #a.
+-tab: -#9.
+move: Name, tab, Type, tab, Cat, tab, Power, tab, Acc, tab, PP.
+Name: (["A"-"Z"]+; ["a"-"z"]+; "-" ; " ").
+Type: ["A"-"Z"]; ["a"-"z"]+.
+Cat: ["A"-"Z"],["a"-"z"]+.
+Power: [N] | "—".
+Acc: [N] | "—".
+PP: [N].
+

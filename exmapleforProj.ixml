@@ -1,0 +1,15 @@
+game: textFiles+.
+textFiles: header, character?, (dialogue ; textMarker ; var)++newline.
+
+{Structure}
+header: "~~~~~~~~~~~~~~~", newline, "Text File : ", [N]+, newline, "~~~~~~~~~~~~~~~", newline+.
+character: notnewline, colon.
+
+{Building Blocks}
+newline: (-#d?, #a).
+dialogue: ~[textMarker; var; newline]+.
+{Not a newline and ALSO not a textMarker or variable}
+colon: ":".
+textMarker: ("\c"; "\n" ; "\nand" ; "\r" ; "\nds").
+var: "[VAR ", num, num, num, num, "(", num, num, num, num, ")]".
+num: [N].

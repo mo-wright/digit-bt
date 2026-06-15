@@ -1,0 +1,25 @@
+moves: move+.
+
+move: name, space, type, space, category, space, power, space, accuracy, space, pp, space, effect, newline?.
+
+name: -field.
+type: word.
+category: word.
+power: number, " ".
+accuracy: number, " ".
+pp: number.
+effect: sentence+.
+
+-field: character+.
+-word: letter+.
+-number: (digit+; #2014).
+
+-sentence: character; digit; "'"; ","; "." ; "é".
+
+-character: letter; " "; "-".
+
+-space: (-#9; -" ")+.
+-newline: #a.
+
+-letter: ["A"-"Z"]; ["a"-"z"].
+-digit: ["0"-"9"].

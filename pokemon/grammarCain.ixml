@@ -1,0 +1,44 @@
+moves = header, -nl, move, (-nl, move)*, -nl?.
+
+header = column, -sep,
+         column, -sep,
+         column, -sep,
+         column, -sep,
+         column, -sep,
+         column, -sep,
+         column.
+
+move = name, -sep,
+       type, -sep,
+       category, -sep,
+       power, -sep,
+       accuracy, -sep,
+       pp, -sep,
+       effect.
+
+-sep = -spaces, #9.
+-spaces = #20*.
+
+name = text.
+type = text.
+category = text.
+
+power = number.
+accuracy = number.
+pp = number.
+
+number = digits | dash.
+
+-digits = -digit+.
+-digit = ["0"-"9"].
+
+dash = #2014 | "—".
+
+column = text.
+
+text = word, (-#20, word)*.
+word = ~[#9;#a;#d;#20]+.
+
+effect = ~[#a;#d]+.
+
+-nl = #d?, #a.

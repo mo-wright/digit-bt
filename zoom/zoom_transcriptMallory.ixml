@@ -1,0 +1,17 @@
+transcripts: block++s.
+block: sequence, s, time-range, s, content.
+sequence: ["0"-"9"]+ .
+
+time-range: start-time, ws, "-->", ws, end-time .
+{ebb and mw: You had a question mark after start-time, but that didn't make sense to us, because
+there really is always a start-time. So we're removing that.}
+@start-time: time .
+@end-time: time .
+time: ["0"-"9"]+ , ":", ["0"-"9"]+ , ":", ["0"-"9"]+ , ",", ["0"-"9"]+ .
+
+content: (word++ws)++s.
+-word: [L;P;"0"-"9"]+.
+{ebb: trying a semicolon instead of an "or" pipe here}
+-punctuation: [P] .
+-ws: " ".
+-s: [#a;#d;#9]+.

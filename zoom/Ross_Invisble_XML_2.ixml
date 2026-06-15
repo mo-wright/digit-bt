@@ -1,0 +1,11 @@
+transcript = cue+ .
+
+cue = id, -nl, times, -nl, speech, -nl* .
+
+id = ["0"-"9"]+ .
+times = ~[#a; #d]+ .
+
+speech = line++-nl .
+line = ~[#a; #d]+ .
+
+-nl = [#a; #d]+ .

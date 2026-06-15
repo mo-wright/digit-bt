@@ -1,0 +1,16 @@
+root: header, move++newline.
+header: label++SpacePattern, newline.
+label: ["A"-"z"]+,"."?.
+-SpacePattern: newline, tab, newline.
+-newline: -#d?, -#a.
+-tab: -[#9].
+move: name, type, cat, power, acc, PP, effect.
+name: ["A"-"Z"], ["A"-"z";" " ; "-" {<- this is what was missing!}]*, -[#9].
+type: ["A"-"Z"], ["A"-"z";" "]+, -[#9].
+cat:["A"-"Z"], ["A"-"z";" "]+, -[#9].
+power: ([N]; [#2014])+," "?, -[#9].
+acc: ([N]; [#2014])+," "?, -[#9].
+PP: ([N]; [#2014])+," "?, -[#9].
+effect: ~[#9]*.
+-num: -[N].
+-emdash: -#2014.
