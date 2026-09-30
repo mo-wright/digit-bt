@@ -343,3 +343,18 @@ code {
     line-height: 1.45em;
     color: #414B9E;
 }
+button{
+  padding: 0.75rem 1.5rem;
+  min-width: 120px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e861ae;
+
+}
