@@ -5,29 +5,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function numberBox() {
   const swatches = document.querySelectorAll("div.swatch");
+  const swatchArray = Array.from(swatches);
   let firstSelect = null;
-  swatches.forEach(swatch, (index) => {
+  swatchArray.forEach(swatch, (index) => {
     swatch.style.order = index;
-
-    box.addEventListener("click", () => {
-      // If clicking the same box again, deselect it
+    swatch.addEventListener("click", () => {
       if (firstSelect === box) {
-        box.classList.remove("selected");
+        swatch.classList.remove("selected");
         firstSelect = null;
         return;
       }
 
-      if (!firstSelected) {
-        // Track the first box clicked
+      if (!firstSelect) {
         firstSelect = box;
-        box.classList.add("selected");
+        swatch.classList.add("selected");
       } else {
-        // 3. Swap the CSS 'order' property values between the two boxes
         const tempOrder = firstSelect.style.order;
         firstSelect.style.order = box.style.order;
-        box.style.order = tempOrder;
+        swatch.style.order = tempOrder;
 
-        // Clean up state for the next selection
         firstSelect.classList.remove("selected");
         firstSelect = null;
       }
