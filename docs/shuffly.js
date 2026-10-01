@@ -1,3 +1,40 @@
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("loaded");
+  numberBox();
+});
+
+function numberBox() {
+  const swatches = document.querySelectorAll("div.swatch");
+  let firstSelect = null;
+  swatches.forEach(swatch, (index) => {
+    swatch.style.order = index;
+
+    box.addEventListener("click", () => {
+      // If clicking the same box again, deselect it
+      if (firstSelect === box) {
+        box.classList.remove("selected");
+        firstSelect = null;
+        return;
+      }
+
+      if (!firstSelected) {
+        // Track the first box clicked
+        firstSelect = box;
+        box.classList.add("selected");
+      } else {
+        // 3. Swap the CSS 'order' property values between the two boxes
+        const tempOrder = firstSelect.style.order;
+        firstSelect.style.order = box.style.order;
+        box.style.order = tempOrder;
+
+        // Clean up state for the next selection
+        firstSelect.classList.remove("selected");
+        firstSelect = null;
+      }
+    });
+  });
+}
+
 function shuffle() {
   colorGrid = document.getElementsByClassName("colorGrid")[0]; //[0] needed
   const swatches = document.querySelectorAll("div.swatch");
