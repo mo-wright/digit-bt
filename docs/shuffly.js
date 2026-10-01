@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("loaded");
+  console.log("fully loaded");
   numberBox();
 });
 
@@ -7,22 +7,23 @@ function numberBox() {
   const swatches = document.querySelectorAll("div.swatch");
   const swatchArray = Array.from(swatches);
   let firstSelect = null;
-  swatchArray.forEach(swatch, (index) => {
+
+  swatchArray.forEach((swatch, index) => {
     swatch.style.order = index;
     swatch.addEventListener("click", () => {
-      if (firstSelect === box) {
+      if (firstSelect === swatch) {
         swatch.classList.remove("selected");
         firstSelect = null;
         return;
       }
 
       if (!firstSelect) {
-        firstSelect = box;
+        firstSelect = swatch;
         swatch.classList.add("selected");
       } else {
-        const tempOrder = firstSelect.style.order;
-        firstSelect.style.order = box.style.order;
-        swatch.style.order = tempOrder;
+        const tempOrder = firstSelect.style.order; //store where the first swatch was
+        firstSelect.style.order = swatch.style.order;
+        swatch.style.order = tempOrder; // switch second clicked swatch position
 
         firstSelect.classList.remove("selected");
         firstSelect = null;
@@ -44,6 +45,7 @@ function shuffle() {
   fishygates(swatchArray);
   console.log(swatchArray); //making sure shuffle functions
   swatchArray.forEach((swatches) => colorGrid.append(swatches)); // populates grid with swatches in shuffled order
+  numberBox();
 
   // this is called the fisher-yates shuffle, apparently? i was unfamiliar but i lifted it from StackOverflow just to try:
   function fishygates(array) {
