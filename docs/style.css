@@ -351,10 +351,8 @@ button{
   justify-content: center;
 
 }
-.button-div{
+#buttonDiv{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e861ae;
-
 }
